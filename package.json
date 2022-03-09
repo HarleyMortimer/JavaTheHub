@@ -4,6 +4,7 @@
   "description": "Aka JavaScript_playground_2022",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon ./src/app.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

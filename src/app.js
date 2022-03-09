@@ -1,4 +1,5 @@
-console.log("Hello World!") 
+console.log("Hello") 
+console.log("Harley Mortimer")
 // TODO: 
 
 // NOTE:
@@ -7,3 +8,5 @@ console.log("Hello World!")
 
 
 */
+
+// NOTE: /* Script i can copy "dev": "nodemon ./src/app.js", */
