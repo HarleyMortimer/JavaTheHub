@@ -1,0 +1,13 @@
+First node app
+
+-install node 
+https:/nodejs.org/
+
+-Confirm node js installaition
+run node -v  then npm -v
+
+-Create node js project
+npm init 
+
+-Create a .js file and run it 
+node file.js
