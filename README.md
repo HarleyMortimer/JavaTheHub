@@ -1,5 +1,5 @@
-![Alt Text](img/Jabba.gif)
-
+![Alt Text](img/Jabba.gif) | ![Alt Text](img/itslit-lit.gif)
+|--------------------------|----------------------------------|
 # JavaTheHub
 **A.k.a. JavaScript_playground_2022**
 
