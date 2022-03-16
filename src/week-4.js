@@ -4,6 +4,8 @@ Enter nodemon = "npm run dev"
 Exit nodemon = "Ctrl C"
 {} = Object
 using a "." or [""] in console reads sub-catagory
+const = keeps value of// padlocks value 
+let = lets you change the value
 
 */
 
@@ -54,3 +56,24 @@ if (number === 10){
 } else {
   console.log("error")
 }
+
+//const and let
+let num = 3
+console.log(num)
+
+num = "TrojanError!"
+console.log(num)
+
+const Alpha = "Harley"
+console.log(Alpha)
+
+//javascript comments
+/*
+ hellow world
+ class sdv503
+ */
+var sdv503 = "javascript"
+ 
+var x = 3
+
+var fullName = "Harley Mortimer"
