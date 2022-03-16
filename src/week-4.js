@@ -147,3 +147,12 @@ console.log(number_one === number_two)
 //Numbers: 1234, 1224.4
 //strings: "text", "WordsHere"
 //non-values: null and undefined
+
+var str = "Morty"
+console.log(str.length = 2)
+console.log(str.length)
+
+// index array starts at "0"
+var numbers = [1, 2, 3, 4, 5]
+console.log(numbers[3] = 420)
+console.log(numbers)
