@@ -76,4 +76,74 @@ var sdv503 = "javascript"
  
 var x = 3
 
-var fullName = "Harley Mortimer"
+var fullName = "text"
+
+
+function foo(p1, p2) {
+return p2 - p1
+}
+
+foo(5, 10)
+
+function sum(x1, x2) {
+  return x1 + x2
+}
+
+sum(10, 3)
+
+// (=) vs (===) 
+/**  (=) asigns value (===) compares two values
+*/
+
+//statements vs expressions
+
+//  var numbers 
+
+// var new_value = function sum(x1, x2) {
+//   return x1 + x2
+// }
+//statement
+// var x 
+// var y 
+// if(y >= 0) {
+//   x = y
+// } else {
+//   x = -y
+// }
+
+// function statements(x,y) {
+//   if(y >= 0)
+//   return x = y
+// } else {
+//   return x = -y
+// }
+
+// expression ES6
+// var x = y >= 0 ? y : -y
+
+var word = "HowLongIsThisWord?"
+console.log(word.length)
+
+var object = {}
+console.log(object)
+
+object.foo = 123
+console.log(object)
+console.log(word.toUpperCase())
+
+//javascript values (primitives vs ojectives)
+//these have different = no assigned value
+var obj1 = {}
+var obj2 = {}
+
+console.log(obj1 === obj1)
+// these have same value = 123
+var number_one = 123
+var number_two = 123
+
+console.log(number_one === number_two)
+
+//Boolean: true and false
+//Numbers: 1234, 1224.4
+//strings: "text", "WordsHere"
+//non-values: null and undefined
