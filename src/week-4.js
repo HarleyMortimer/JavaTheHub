@@ -153,6 +153,24 @@ console.log(str.length = 2)
 console.log(str.length)
 
 // index array starts at "0"
-var numbers = [1, 2, 3, 4, 5]
-console.log(numbers[3] = 420)
-console.log(numbers)
+//            [0, 1, 2, 3, 4]
+// var numbers = [1, 2, 3, 4, 5]
+// console.log(numbers[3] = 420)
+// console.log(numbers)
+
+// console.log({} === {})
+
+// console.table(str)
+
+// //non values
+// var nonvalue = {}
+// console.log(nonvalue)
+
+// function nonvalue(x) {
+//   return x
+// }
+
+// console.log(nonvalue.first_name)
+//if (nonvalue === undefined || nonvalued === null)
+var value = Function()
+console.log(typeof value)
