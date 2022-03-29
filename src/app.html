@@ -15,4 +15,18 @@
              alert("You are now about to download a virus, click ok to continue.");
        </script>
     </body>
+    <body>
+        <div> what is your name?
+            <input type="text">
+            <button>Send</button>
+            
+            </div>
+            <script>
+            document.querySelector("button").addEventListener("click", function (){
+                document.querySelector("div").textContent = "Hello, " + document.querySelector("input").value;
+            
+            
+            })
+            </script>
+    </body>
 </html>
