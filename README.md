@@ -10,3 +10,7 @@
 
 # Week-4 Typing out JavaScript
 * Dress Code = formal JavaScript
+
+# Week-6
+* made a button
+* 
