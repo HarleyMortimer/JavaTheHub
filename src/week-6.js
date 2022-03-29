@@ -8,8 +8,10 @@ var myName = "Harley";
 var myCourse = "JavaScript";
 console.log(myName);
 //alert("Welcome");
-var myAge = 26;
+var myAge = 26; //Thats my real age baby...
 console.log(myAge)
+/*
+*/ 
 
 
 
