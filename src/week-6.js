@@ -76,15 +76,60 @@ console.log(welcome, friendsName)*/
 
 // Keyword Lexical scope
 
-function outerFunc(){
-    var msg = "Hello World"
+// function outerFunc(){
+//     var msg = "Hello World"
 
 
-function innerFunc(){
-    console.log(msg)
-}
+// function innerFunc(){
+//     console.log(msg)
+// }
 
-console.log(innerFunc())
-}
+// console.log(innerFunc())
+// }
 
-console.log(outerFunc())
+// console.log(outerFunc())
+
+//DataType
+/*
+1- Numbers
+2- Boolean
+3- Strings
+4- Objects
+
+*/
+
+// let a = 1 // A Number dataType
+// let b = "Hello" // B is a string
+// let c = true //C is a boolean 
+// let d; // D is undefined
+
+// let sum = 1 + 1
+// console.log(sum)
+
+// let test = 100 / 2
+// console.log(test)
+
+// const value1 = '5'
+// const value2 = '2'
+// let sum = Number('5') + Number('2')
+
+// let love = "terry cruise loves"
+// console.log(love)
+// let happiness = "yoghurt"
+// console.log(happiness)
+
+// let loveHappiness = love + " " + happiness
+// console.log(loveHappiness)
+
+// let newStr = `Hello to my new string! who likes what? ${love} ${happiness}` //uses back ticks
+// console.log(newStr)
+// let output = `the sum of value1 ${value1} and value2 ${value2} is ${sum}` // uses back ticks  // ${} add variable
+// console.log(output) // always outputs to terminal
+
+// Boolean only two keywords true and false
+
+let boo = true
+console.log(boo)
+console.log(5 > 3)
+// >=or <= or ==
+console.log(1>0.5)
