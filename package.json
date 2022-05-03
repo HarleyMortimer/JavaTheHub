@@ -2,9 +2,9 @@
   "name": "javathehub",
   "version": "1.0.0",
   "description": "Aka JavaScript_playground_2022",
-  "main": "week-6",
+  "main": "week-7",
   "scripts": {
-    "dev": "nodemon ./src/week-6", 
+    "dev": "nodemon ./src/Term_Two/week-10", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

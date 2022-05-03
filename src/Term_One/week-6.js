@@ -128,8 +128,66 @@ console.log(welcome, friendsName)*/
 
 // Boolean only two keywords true and false
 
-let boo = true
-console.log(boo)
-console.log(5 > 3)
-// >=or <= or ==
-console.log(1>0.5)
+// let boo = true
+// console.log(boo)
+// console.log(5 > 3)
+// // >=or <= or ==
+// console.log(1>0.5)
+
+// let test = ["Hello","Harley", 26, 2022] // Square Brackets = Array
+// console.log(test)
+
+// console.log(test[2])
+// for(i =0; i<test.length; i++) { //prints out wole array // i=index
+//     console.log(test[i])
+// }
+
+//Objects
+//  var cat = {
+//      fur:'black',
+//      whiskers: 'many',
+//      toeBeans: 5
+//  }
+ 
+
+//  var Box = {  //Objects
+//      Height: '1m',
+//      Depth: '2m',
+//      Lenghth: '3m',
+        
+//  }
+//         console.log(Box)
+     
+//  var toys = ["yo-yo", "dinosour", "rubix cube", "car"] //Array
+ 
+//  //Function, a block of code designed to perform a task
+ 
+// function div(Box, toys){ 
+//     return Box/toys //awlays return the value
+// }
+
+//  console.log(Box + toys)
+// var a = 5
+// var b = 6
+// var c = 7
+// var d = 8
+
+function div(a, b, c, d){
+    let result = a + b + c + d  
+    return `sum of four variables is = ${result}` 
+}
+
+console.log(div(5,6,7,8))
+
+// let div2 = `the sum of ${a} + ${b} + ${c} + ${d} will equal.. ${div(a,b,c,d)} ` 
+
+// console.log(div2)
+// var speak = "woof woof" //strings
+// console.log(speak)
+
+function fourNumbers(num1,num2,num3,num4){   // object string   no more than (255) this has (4)
+    let result = num1 + num2 + num3 + num4
+    return `sum of four numbers is ${result} `
+}
+
+console.log(fourNumbers(12,32,43,46))
