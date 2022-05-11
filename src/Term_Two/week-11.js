@@ -153,3 +153,20 @@ getBestStudent({
 
 // console.log(clone)
 
+// adding functions in objects
+let user = {
+    name: "john",
+    age: 30
+};
+user.sayHi = function (){ //adds "sayhi" into user 
+    console.log("Hello!")
+
+};
+
+user.sayHi(); //Hello!
+
+//sayHi: function (){} = sayHi(){}
+
+
+
+
