@@ -249,3 +249,201 @@ foreach(string i in students)
 {
     Console.WriteLine(students[i])
 }
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+int[] arrayExample 
+
+myArray = new int[10]; -> index 0 - index 9
+
+myInt = new int[50]; -> index 0 - index 49
+
+double[] newArr = new Double[5]
+///////////////////////////////////////////////////////////////////////////////////////////////
+# Ex: intialize a fixed in array
+
+int[] myExample = new init[6]; // fixed array
+
+myExample[0] = 1;
+myExample[1] = 2;
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+# Ex: declares a dynamic array
+
+string[] myStringArray = new string[] {"Harley", "bob", "francis"};
+
+console.WriteLine(myStringArray[2]); // "francis"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+string[] stringArr = new string[]
+{
+    "Harley",
+    "kenny",
+    "matt",
+    "Tony",
+    "chris",
+};
+
+foreach(string i in stringArr){      //list all contents of array
+    Console.WriteLine(i);
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int[] intArray 
+intArray = new int[10]; -> Single-Dimension Array
+
+int[] myArr = new int[10] {0,1,2,3,4,5,6,7,8,9}; // one line
+
+
+string anotherString = new string[3] {"dog","cat","mouse"}; 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int[,] myNum = new int[2,2] {{1,2}, {3,4}}; // first "2" is for subarray and second "2" is for value.
+
+string[,] myString = new string[2,2] {{"jack","jill"},{"donny","lisa"}};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int[,] myNumbers = {{1,1},{2,2},{3,3}};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int[,] myNumbers = new int[3,3];
+
+myNumbers[0,0] = 1;
+myNumbers[0,1] = 2;
+myNumbers[0,2] = 3;
+
+myNumbers[1,0] = 4;
+myNumbers[1,1] = 5;
+myNumbers[1,2] = 6;
+
+myNumbers[2,0] = 7;
+myNumbers[2,1] = 8;
+myNumbers[2,2] = 9;
+
+{{1,2,3},{4,5,6},{7,8,9}}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Jagged Arrays 
+
+int[][] myArray = new int[][];
+
+# init Jagged arrays
+
+myArray[0] = new int[2];
+myArray[1] = new int[5];
+myArray[2] = new int[6];
+
+myArray[1] = new int[2]
+{
+    2,
+    3,
+};
+
+myArray[0] = new int[5]
+{
+    3,
+    4,
+    5,
+    6,
+    7,
+};
+
+myArray[2] = new int[6]
+{
+    6,
+    7,
+    8,
+    9,
+    10,
+    8,
+    3,
+};
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# loop through all arrays
+
+for(int i = 0, i < myArray.Length ; i++)
+{
+    for(int j = 0; j < myArray[i].Length, j++)
+    {
+        Console.WriteLine(myArray[i][j]);
+    }
+    Console.WriteLine();
+};
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# single array
+
+string[] myStringArray = new string[]
+{
+    "A",
+    "dingo",
+    "ate",
+    "my",
+    "baby"
+};
+
+foreach(string i in myStringArray)
+{
+    Console.WriteLine(i);
+};
+
+Console.WriteLine("-----------------------------------------------------------------------------------");
+
+# Multi-Dimension Array
+
+string[,] myMultiArray = new string[3,2]
+{
+    {"boots", "cats"},
+    {"rubber", "boots"},
+    {"and", "cats"}
+};
+
+foreach(string i in myMultiArray)
+{
+    Console.WriteLine(i)
+};
+
+Console.WriteLine("----------------------------------------------------------------------------------------------------");
+
+//Jagged array
+
+string[][] myJaggedArray = 
+{
+    new string[]
+    {
+        "sdv502",
+        "sdv503"
+    },
+    new string[]
+    {
+        "web403",
+        "web555"
+    },
+    new string[]
+    {
+        "what",
+        "who"
+    }
+};
+
+for(int i = 0; i < myJaggedArray.Length; i++)
+{
+    for(int j =0; j < myJaggedArray[i].Length; j++)
+    {
+        Console.WriteLine(myJaggedArray[i][j])
+    }
+};
+
+Console.WriteLine("--------------------------------------------------------");
