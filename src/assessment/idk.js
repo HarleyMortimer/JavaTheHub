@@ -1,45 +1,35 @@
 
+function exampleJavaScript(arr)
+{
+   let newArr = [];
+  for (let i = 0; i < arr.length; i++)
+   {
+     let largest = arr[i][0];
+   for (let j = 0; j < arr[i].length; j++)
+   {
+        {
+              largest = arr[i][j]
+           }
+       }
+     newArr.push(largest)
+  }
+   return newArr
+}
 
-//make exact copy but mines are x's
+console.log(exampleJavaScript([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]))
 
-let mines2 = [
-  [0, 0, "x", 0],
-  ["x", 0, 0, "x"],
-  [0, "x", 0, 0],
-  [0, 0, 0, "x"],
-]
-
-
-function countMines2(data, i, j) {
-  let c = 0;
-
-  let prevRow = data[i - 1];
-  let currentRow = data[i]
-  let nextRow = data[i + 1];
-
-
-
-  [prevRow, currentRow, nextRow].forEach(row => {
-    if (row) {
-
-      if (row[j - 1] == "x") c++;
-      if (row[j] == "x") c++;
-      if (row[j + 1] == "x") c++;
-
+function exampleJavaScript(arr) {
+	let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    let largest = arr[i][0];
+    for(let j = 0; j < arr[i].length; j++){
+      if(arr[i][j] > largest) {
+        largest = arr[i][j]
+      }
     }
-  })
-
-  return c;
+    newArr.push(largest)
+  }
+  return newArr
 }
 
-function update2(data) {
-  return data.map((a, i) => {
-    return a.map((b, j) => {
-      return b == "x" ? b : countMines2(data, i, j);
-    })
-  });
-
-}
-
-const result2 = update2(mines2)
-console.log(result2)
+console.log(exampleJavaScript([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]])) // outcome [7, 90, 2]

@@ -11,3 +11,21 @@ console.table({first:"test",val:9});
 //at node:internal/main/run_main_module:17:47
 //[nodemon] app crashed - waiting for file changes before starting...
 console.error("Hello World")
+function exampleJavaScript(arr)
+{
+   let newArr = [];
+  for (let i = 0; i < arr.length; i++)
+   {
+     let largest = arr[i][0];
+   for (let j = 0; j < arr[i].length; j++)
+   {
+        {
+              largest = arr[i][j]
+           }
+       }
+     newArr.push(largest)
+  }
+   return newArr
+}
+
+console.log(exampleJavaScript([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]))
